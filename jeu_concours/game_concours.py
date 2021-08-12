@@ -234,11 +234,11 @@ class Game:
                         font = pygame.font.SysFont("arial", 15, True, False)
                         font2 = pygame.font.SysFont("arial", 15, True, False)
                         text = font.render("Appuyez sur les touches directionnelles pour marcher. Si vous êtes perdus touchez les machines ils vous téléporteront", True, color_blank)
-                        text2 = font2.render(f"essayez de résoudre l'enigme et vous pourrez sortir;", True, color_blank)
+                        text2 = font2.render(f"essayez de résoudre l'enigme et vous pourrez sortir;l'enigme dit:", True, color_blank)
 
                         self.screen.blit(text, [25, 100])
                         self.screen.blit(text2, [25, 150])
-                        text3 = font.render("l'enigme dit:- Suis la temperature qui te donne de meilleures conditions de vie; n'oublie pas de regarder la barre d'eau et de nourriture",True, color_blank)
+                        text3 = font.render("- Suis la temperature qui te donne de meilleures conditions de vie; n'oublie pas de regarder la barre d'eau et de nourriture",True, color_blank)
                         text4 = font2.render(f"BONNE CHANCE !!!", True, color_blank)
 
                         self.screen.blit(text3, [25, 200])
