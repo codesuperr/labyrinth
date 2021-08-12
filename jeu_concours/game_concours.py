@@ -42,7 +42,7 @@ class Game:
 
         # cree la fenetre du jeu
         self.screen = pygame.display.set_mode((800, 600))
-        pygame.display.set_caption("aventure")
+        pygame.display.set_caption("NI CHAUD NI FROID")
         # charger la carte
         self.tmx_data = pytmx.util_pygame.load_pygame("center.tmx")
         self.compteur = 1
